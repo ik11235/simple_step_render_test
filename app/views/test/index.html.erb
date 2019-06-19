@@ -1,0 +1,7 @@
+<p id="notice"><%= notice %></p>
+
+<h1>test</h1>
+
+<% @user = User.first %>
+<%= step_render 'users/user', user: @user %>
+
